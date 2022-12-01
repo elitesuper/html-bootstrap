@@ -1,14 +1,36 @@
 :root{
     --bs-yellow: #ffe600;
     --bs-success: #78ad09;
+    --bs-title-largesize: 3.5rem;
+    --bs-title-bigsize: 3rem;
+    --bs-title-normalsize: 2.5rem;
+    --bs-title-smallsize: 2rem;
+    --bs-title-tinysize: 1rem;
 }
-p{
+p {
     font-size: smaller;
 }
-.h3{
+
+.h3 {
     color: var(--bs-success);
 }
 
+.custom-color-green{
+    color: var(--bs-success);
+}
+
+.custom-color-orange{
+    color: var(--bs-orange);
+}
+
+
+.letter-space-2{
+    letter-spacing: 0.2rem;
+}
+
+.large-font{
+    font-size: var(--bs-title-largesize);
+}
 .primary-btn{
     background-color: var(--bs-success);
     border-color: var(--bs-success);
@@ -43,7 +65,7 @@ p{
 }
 .animation-header-title{
     max-width: 70%;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color: white;
     font-style: italic;
@@ -96,4 +118,9 @@ p{
     width: 12rem;
     left: 8%;
     top: 2rem;
+}
+
+.product-logo-card{
+    height: 200px;
+    border-radius: 40px;
 }
